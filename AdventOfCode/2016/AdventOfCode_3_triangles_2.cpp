@@ -46,7 +46,7 @@
 #include <algorithm>
 using namespace std;
 
-int main() {
+void solve() {
     vector<vector<int>> vec(3,vector<int>(3));
     int counter = 0;
     int line = -1;
@@ -68,6 +68,4 @@ int main() {
         }
     }
     cout << counter << endl;
-    
-    return EXIT_SUCCESS;
 }

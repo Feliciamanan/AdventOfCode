@@ -189,12 +189,11 @@ void printBoard() {
   cout << endl;
 }
 
-int main() {
+void solve() {
   // cin >> favoriteNumber;
   // favoriteNumber = 10;
   favoriteNumber = 1350;
   // printBoard();
   // cout << minStepsToBfs(7,4) << endl;
   cout << minStepsToBfs(31,39) << endl;
-  return EXIT_SUCCESS;
 }

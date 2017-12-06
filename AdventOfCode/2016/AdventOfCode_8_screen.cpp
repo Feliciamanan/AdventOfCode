@@ -205,7 +205,7 @@ void rotate(bool isColumn, int index, int pixels) {
   printMatrix();
 }
 
-int main() {
+void solve() {
   string instruction, param1, param2;
   while(!cin.eof()){
     cin >> instruction;
@@ -230,5 +230,4 @@ int main() {
     }
   }
   printMatrix();
-  return EXIT_SUCCESS;
 }

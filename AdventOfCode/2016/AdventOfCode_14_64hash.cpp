@@ -183,11 +183,10 @@ void testHashing(const string &salt){
   // cout << createHashPart2(salt, 22551) << " => " << createHashPart2(salt, 22859) << endl;
 }
 
-int main() {
+void solve() {
   string salt;
   // string salt = "abc"; // "zpqevtbw";
   cin >> salt;
   // testHashing(salt);
   cout << find64thHash(salt) << endl;
-  return EXIT_SUCCESS;
 }

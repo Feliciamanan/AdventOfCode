@@ -152,11 +152,10 @@ int64_t getUncompressedLength(const string &input) {
   return getUncompressedLength(input, 0, input.length());
 }
 
-int main() {
+void solve() {
   string input;
   while(!cin.eof()) {
     getline (cin,input);
     cout << getUncompressedLength(input) << endl;
   }
-  return EXIT_SUCCESS;
 }

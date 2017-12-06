@@ -124,9 +124,8 @@ void capture1() {
   } 
 }
 
-int main(){
+void solve(){
   cin.imbue(locale(cin.getloc(), new comma_space_enter));
   capture1();
   cout << getDistance() << endl;
-  return 0;
 }

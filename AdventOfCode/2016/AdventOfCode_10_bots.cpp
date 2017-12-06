@@ -197,12 +197,11 @@ void processInstruction(const string &in){
   }
 }
 
-int main() {
+void solve() {
   string input;
   while(!cin.eof()){
     getline (cin,input);
     processInstruction(input);
   }
   printOutputs();
-  return EXIT_SUCCESS;
 }

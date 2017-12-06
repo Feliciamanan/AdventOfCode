@@ -286,7 +286,7 @@ bool processInstructions(vector<string> instructions) {
   return true;
 }
 
-int main() {
+void solve() {
   auto instructions = getInstructions();
   // printInstructions(instructions);
   int i = 1;
@@ -296,5 +296,4 @@ int main() {
   }
   cout << endl << "Result: " << i << endl;
   printRegisters();
-  return EXIT_SUCCESS;
 }

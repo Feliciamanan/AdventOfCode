@@ -154,7 +154,7 @@ string getFirstOddChecksum(string &disc) {
 }
 
 
-int main() {
+void solve() {
   string disc(MAX_SIZE, '_');
   // string line = "10000";
   string line = "01111010110010011";
@@ -166,5 +166,4 @@ int main() {
   // cout << disc << endl << endl;
 
   cout << getFirstOddChecksum(disc) << endl;
-  return EXIT_SUCCESS;
 }

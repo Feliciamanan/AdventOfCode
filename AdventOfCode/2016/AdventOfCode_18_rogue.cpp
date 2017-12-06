@@ -164,7 +164,7 @@ void printBoard() {
   cout << endl;
 }
 
-int main() {
+void solve() {
   for (int c = 0; c < MAX_COLS; ++c) {
     cin >> matrix[0][c];
     if (isSafe(matrix[0][c]))
@@ -174,5 +174,4 @@ int main() {
   fillBoard();
   printBoard();
   cout << "Total safe: " << safeCount << endl;
-  return EXIT_SUCCESS;
 }

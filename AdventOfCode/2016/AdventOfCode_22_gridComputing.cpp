@@ -384,7 +384,7 @@ void solvePt2() {
 }
 
 
-int main(){
+void solve(){
   loadInfo();
   // sort(infos.begin(), infos.end(), sortByFreeSize);
   // solvePt1();
@@ -394,5 +394,4 @@ int main(){
   printDetailedMatrix();
   // printInfos();
   solvePt2();
-  return EXIT_SUCCESS;
 }

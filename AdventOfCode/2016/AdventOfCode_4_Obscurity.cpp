@@ -97,7 +97,7 @@ int getSectorIdIfValid(int id, const vector<pair<char,int>> &repeated,
 
 }
 
-int main() {
+void solve() {
   string line;
   int counter = 0;
   while(!cin.eof()) {
@@ -121,6 +121,4 @@ int main() {
     counter += getSectorIdIfValid(num, repeatedChars, checksum);
   }
   cout << counter << endl;
-
-  return EXIT_SUCCESS;
 }

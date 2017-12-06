@@ -110,7 +110,7 @@ void printShifted(const vector<string> &vec, int cicles){
   cout << " = " << cicles << endl;
 }
 
-int main() {
+void solve() {
   string line;
   while(!cin.eof()) {
     cin >> line;
@@ -132,5 +132,4 @@ int main() {
     if (getSectorIdIfValid(num, repeatedChars, checksum))
       printShifted(vec, num);
   }
-  return EXIT_SUCCESS;
 }

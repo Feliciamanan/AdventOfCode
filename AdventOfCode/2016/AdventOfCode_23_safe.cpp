@@ -292,12 +292,11 @@ void processInstructions(vector<string> instructions) {
   cout << "Total instructions processed: " << processed << endl;
 }
 
-int main() {
+void solve() {
   initRegisters();
   auto instructions = getInstructions();
   // printInstructions(instructions);
   processInstructions(instructions);
   cout << endl << "Result: " << registers['a'] << endl;
   printRegisters();
-  return EXIT_SUCCESS;
 }

@@ -72,6 +72,7 @@
 #include <cmath>
 #include <cstdlib>
 #include <vector>
+#include <string>
 using namespace std;
 
 vector<vector<char>> keypad(5, vector<char>(5));
@@ -134,7 +135,7 @@ bool canRight(int x, int y){
 }
 
 
-int main() {
+void solve() {
   char c;
   string input;
   fill();
@@ -168,5 +169,4 @@ int main() {
     }
     cout << keypad[x][y] << endl;
   }
-  return EXIT_SUCCESS;
 }

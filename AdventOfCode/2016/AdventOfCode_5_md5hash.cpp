@@ -93,7 +93,7 @@ void print(const vector<char> &output){
   cout << endl;
 }
 
-int main() {
+void solve() {
   vector<char> output{'_','_','_','_','_','_','_','_'};
   int found = 0;
   for (uint32_t i = 1739500; i < 2147483647 && found < 8; ++i){
@@ -127,5 +127,4 @@ int main() {
   }
   cout << "Solution: ";
   print(output);
-  return EXIT_SUCCESS;
 }

@@ -102,7 +102,7 @@ void printResult(const vector<char> &res){
   cout << endl;
 }
 
-int main() {
+void solve() {
   string line;
   cin >> line;
   int charAmount = line.length();
@@ -117,6 +117,4 @@ int main() {
 
   vector<char> res = getDecoded(positions);
   printResult(res);
-
-  return EXIT_SUCCESS;
 }

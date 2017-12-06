@@ -208,7 +208,7 @@ void setFastIo(){
   cin.tie(NULL);
 }
 
-int main() {
+void solve() {
   setFastIo();
   cin >> MAX_ELVES;
 //   setFastIo();
@@ -216,5 +216,4 @@ int main() {
   // printElves();
   int winner = getWinningElf();
   cout << "Winning elf: " << winner << endl;
-  return EXIT_SUCCESS;
 }

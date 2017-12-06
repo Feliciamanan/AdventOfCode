@@ -45,7 +45,7 @@
 #include <string>
 using namespace std;
 
-int main() {
+void solve() {
   char c;
   string input;
   int x = 1, y = 1;
@@ -78,5 +78,4 @@ int main() {
     }
     cout << (y * 3 + x + 1) << endl;
   }
-  return EXIT_SUCCESS;
 }

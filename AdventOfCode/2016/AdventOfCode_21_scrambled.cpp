@@ -297,10 +297,9 @@ void pt2(vector<string> instructions) {
   cout << "Solution:\t" << input << endl << endl;
 }
 
-int main() {
+void solve() {
   auto instructions = getInstructions();
   // pt1(instructions);
   // pt2(instructions);
   doStuff(instructions);
-  return EXIT_SUCCESS;
 }

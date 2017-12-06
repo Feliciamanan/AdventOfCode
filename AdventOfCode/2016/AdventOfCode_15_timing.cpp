@@ -183,9 +183,8 @@ void printCorrectStartTime() {
   cout << "Correct start time: " << offset << endl;
 }
 
-int main() {
+void solve() {
   loadDiscs();
   printDiscs();
   printCorrectStartTime();
-  return EXIT_SUCCESS;
 }

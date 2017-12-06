@@ -193,7 +193,6 @@ void part2() {
   cout << total << endl;
 }
 
-int main() {
+void solve() {
   part2();
-  return EXIT_SUCCESS;
 }

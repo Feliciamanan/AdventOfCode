@@ -150,7 +150,7 @@ vector<PairOfInts> fillRanges() {
   return ranges;
 }
 
-int main(){
+void solve(){
   auto ranges = fillRanges();
   // printRanges(ranges);
   sort(ranges.begin(), ranges.end(), sortRanges);
@@ -159,5 +159,4 @@ int main(){
   cout << "First Allowed Ip: " << firstAllowedIp << endl << endl;
 
   cout << "Total Allowed Ips: " << getTotalAllowedIps(ranges) << endl;
-  return EXIT_SUCCESS;
 }

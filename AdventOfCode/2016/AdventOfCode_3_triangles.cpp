@@ -28,7 +28,7 @@
 #include <algorithm>
 using namespace std;
 
-int main() {
+void solve() {
   vector<int> vec(3);
   int counter = 0;
   while(!std::cin.eof()) {
@@ -40,6 +40,4 @@ int main() {
       cout << counter << endl;
   }
   cout << counter << endl;
-
-  return EXIT_SUCCESS;
 }

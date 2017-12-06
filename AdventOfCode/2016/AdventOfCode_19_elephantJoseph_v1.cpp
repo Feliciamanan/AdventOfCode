@@ -98,8 +98,7 @@ int getWinningElf() {
   return index;
 }
 
-int main() {
+void solve() {
   int winner = getWinningElf() + 1;
   cout << "Winning elf: " << winner << endl;
-  return EXIT_SUCCESS;
 }
